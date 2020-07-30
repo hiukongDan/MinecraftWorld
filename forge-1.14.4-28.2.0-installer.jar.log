@@ -1,0 +1,142 @@
+JVM info: Oracle Corporation - 1.8.0_242 - 25.242-b08
+java.net.preferIPv4Stack=true
+Found java version 1.8.0_242
+Target Directory: .
+Extractiung main jar:
+  Extracted successfully
+Considering minecraft server jar
+Downloading libraries
+Considering library net.minecraftforge:forge:1.14.4-28.2.0
+  File exists: Checksum validated.
+Considering library org.ow2.asm:asm:6.2
+  File exists: Checksum validated.
+Considering library org.ow2.asm:asm-commons:6.2
+  File exists: Checksum validated.
+Considering library org.ow2.asm:asm-tree:6.2
+  File exists: Checksum validated.
+Considering library cpw.mods:modlauncher:4.1.0
+  File exists: Checksum validated.
+Considering library cpw.mods:grossjava9hacks:1.1.0
+  File exists: Checksum validated.
+Considering library net.minecraftforge:accesstransformers:1.0.1-milestone.0.1+94458e7-shadowed
+  File exists: Checksum validated.
+Considering library net.minecraftforge:eventbus:1.0.0-service
+  File exists: Checksum validated.
+Considering library net.minecraftforge:forgespi:1.5.0
+  File exists: Checksum validated.
+Considering library net.minecraftforge:coremods:1.0.0
+  File exists: Checksum validated.
+Considering library net.minecraftforge:unsafe:0.2.0
+  File exists: Checksum validated.
+Considering library com.electronwill.night-config:core:3.6.0
+  File exists: Checksum validated.
+Considering library com.electronwill.night-config:toml:3.6.0
+  File exists: Checksum validated.
+Considering library org.jline:jline:3.12.1
+  File exists: Checksum validated.
+Considering library org.apache.maven:maven-artifact:3.6.0
+  File exists: Checksum validated.
+Considering library net.jodah:typetools:0.6.0
+  File exists: Checksum validated.
+Considering library java3d:vecmath:1.5.2
+  File exists: Checksum validated.
+Considering library org.apache.logging.log4j:log4j-api:2.11.2
+  File exists: Checksum validated.
+Considering library org.apache.logging.log4j:log4j-core:2.11.2
+  File exists: Checksum invalid, deleting file:
+    Expected: 6c2fb3f5b7cd27504726aef1b674b542a0c9cf53
+    Actual:   31fc7855fc7fd44ee59f7751705a11b73d577101
+  Downloading library from https://files.minecraftforge.net/maven/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2.jar
+    Download completed: Checksum validated.
+Considering library net.minecrell:terminalconsoleappender:1.2.0
+  File exists: Checksum validated.
+Considering library net.sf.jopt-simple:jopt-simple:5.0.4
+  File exists: Checksum validated.
+Considering library com.github.jponge:lzma-java:1.3
+  File exists: Checksum validated.
+Considering library com.google.code.findbugs:jsr305:3.0.2
+  File exists: Checksum validated.
+Considering library com.google.code.gson:gson:2.8.0
+  File exists: Checksum validated.
+Considering library com.google.errorprone:error_prone_annotations:2.1.3
+  File exists: Checksum validated.
+Considering library com.google.guava:guava:20.0
+  File exists: Checksum invalid, deleting file:
+    Expected: 89507701249388e1ed5ddcf8c41f4ce1be7831ef
+    Actual:   b186c3eff4b9bea5aaa647b88dca760ce5ce02cb
+  Downloading library from https://files.minecraftforge.net/maven/com/google/guava/guava/20.0/guava-20.0.jar
+    Download completed: Checksum validated.
+Considering library com.google.guava:guava:25.1-jre
+  File exists: Checksum validated.
+Considering library com.google.j2objc:j2objc-annotations:1.1
+  File exists: Checksum validated.
+Considering library com.nothome:javaxdelta:2.0.1
+  File exists: Checksum validated.
+Considering library commons-io:commons-io:2.4
+  File exists: Checksum validated.
+Considering library de.oceanlabs.mcp:mcp_config:1.14.4-20190829.143755@zip
+  File exists: Checksum invalid, deleting file:
+    Expected: 1646ace86633cd91206fdba2e460a12a19e32505
+    Actual:   01ebb09c4aadea85b2621d34e5dec67b856977f6
+  Downloading library from https://files.minecraftforge.net/maven/de/oceanlabs/mcp/mcp_config/1.14.4-20190829.143755/mcp_config-1.14.4-20190829.143755.zip
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.readV3Record(InputRecord.java:593)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:532)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:975)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:933)
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:735)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:678)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1593)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
+	at net.minecraftforge.installer.DownloadUtils.getConnection(DownloadUtils.java:203)
+	at net.minecraftforge.installer.DownloadUtils.download(DownloadUtils.java:144)
+	at net.minecraftforge.installer.DownloadUtils.download(DownloadUtils.java:134)
+	at net.minecraftforge.installer.DownloadUtils.downloadLibrary(DownloadUtils.java:123)
+	at net.minecraftforge.installer.actions.Action.downloadLibraries(Action.java:79)
+	at net.minecraftforge.installer.actions.ServerInstall.run(ServerInstall.java:91)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:122)
+Considering library net.md-5:SpecialSource:1.8.5
+  File exists: Checksum validated.
+Considering library net.minecraftforge:binarypatcher:1.0.12
+  File exists: Checksum validated.
+Considering library net.minecraftforge:forge:1.14.4-28.2.0:universal
+  File exists: Checksum validated.
+Considering library net.minecraftforge:installertools:1.1.4
+  File exists: Checksum validated.
+Considering library net.minecraftforge:jarsplitter:1.1.2
+  File exists: Checksum validated.
+Considering library net.sf.jopt-simple:jopt-simple:4.9
+  File exists: Checksum validated.
+Considering library net.sf.jopt-simple:jopt-simple:5.0.4
+  File exists: Checksum validated.
+Considering library net.sf.opencsv:opencsv:2.3
+  File exists: Checksum validated.
+Considering library org.checkerframework:checker-qual:2.0.0
+  File exists: Checksum validated.
+Considering library org.codehaus.mojo:animal-sniffer-annotations:1.14
+  File exists: Checksum validated.
+Considering library org.ow2.asm:asm-analysis:6.1.1
+  File exists: Checksum validated.
+Considering library org.ow2.asm:asm-commons:6.1.1
+  File exists: Checksum validated.
+Considering library org.ow2.asm:asm-tree:6.1.1
+  File exists: Checksum validated.
+Considering library org.ow2.asm:asm:6.1.1
+  File exists: Checksum validated.
+Considering library trove:trove:1.0.2
+  File exists: Checksum validated.
+These libraries failed to download. Try again.
+
+de.oceanlabs.mcp:mcp_config:1.14.4-20190829.143755@zip
+There was an error during installation
