@@ -1,10 +1,16 @@
-[14:37:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
-[14:38:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 64209ms or 1284 ticks behind
-[14:39:24] [Server Watchdog/FATAL]: A single server tick took 60.60 seconds (should be max 0.05)
-[14:39:29] [Server Watchdog/FATAL]: Considering it to be crashed, server will forcibly shutdown.
-[14:40:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 44368ms or 887 ticks behind
-[14:40:30] [Server Watchdog/ERROR]: This crash report has been saved to: /Minecraft/./crash-reports/crash-2020-06-26_14.40.30-server.txt
-[14:40:30] [Server thread/INFO]: Stopping server
-[14:40:30] [Server thread/INFO]: Saving players
-[14:40:30] [Server thread/INFO]: Saving worlds
-[14:40:30] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
+[00:12:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2135ms or 42 ticks behind
+[01:08:01] [Server thread/INFO]: CelesGoye lost connection: Disconnected
+[01:08:01] [Server thread/INFO]: CelesGoye left the game
+[14:40:29] [Server thread/INFO]: Stopping the server
+[14:40:29] [Server thread/INFO]: Stopping server
+[14:40:29] [Server thread/INFO]: Saving players
+[14:40:29] [Server thread/INFO]: Saving worlds
+[14:40:29] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
+[14:40:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:40:29] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
+[14:40:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:40:29] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[14:40:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:40:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:40:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:40:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved

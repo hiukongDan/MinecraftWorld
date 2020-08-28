@@ -1,0 +1,176 @@
+---- Minecraft Crash Report ----
+// Hi. I'm Minecraft, and I'm a crashaholic.
+
+Time: 8/25/20 11:01 PM
+Description: Watching Server
+
+java.lang.Error
+	at uw.a(SourceFile:877)
+	at vi.a(SourceFile:475)
+	at wc.a(SourceFile:835)
+	at om.a(SourceFile:126)
+	at om$b.a(SourceFile:18)
+	at ke.a(SourceFile:21)
+	at ke$$Lambda$2471/1657668336.run(Unknown Source)
+	at rk.run(SourceFile:18)
+	at agq.h(SourceFile:144)
+	at agu.h(SourceFile:23)
+	at agq.q(SourceFile:118)
+	at net.minecraft.server.MinecraftServer.aX(SourceFile:712)
+	at net.minecraft.server.MinecraftServer.q(SourceFile:706)
+	at agq.bh(SourceFile:103)
+	at net.minecraft.server.MinecraftServer.p(SourceFile:690)
+	at net.minecraft.server.MinecraftServer.run(SourceFile:646)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server Watchdog
+Stacktrace:
+	at uw.a(SourceFile:877)
+	at vi.a(SourceFile:475)
+	at wc.a(SourceFile:835)
+	at om.a(SourceFile:126)
+	at om$b.a(SourceFile:18)
+	at ke.a(SourceFile:21)
+	at ke$$Lambda$2471/1657668336.run(Unknown Source)
+	at rk.run(SourceFile:18)
+	at agq.h(SourceFile:144)
+	at agu.h(SourceFile:23)
+	at agq.q(SourceFile:118)
+	at net.minecraft.server.MinecraftServer.aX(SourceFile:712)
+	at net.minecraft.server.MinecraftServer.q(SourceFile:706)
+	at agq.bh(SourceFile:103)
+	at net.minecraft.server.MinecraftServer.p(SourceFile:690)
+
+-- Thread Dump --
+Details:
+	Threads: "Server-Worker-285" Id=305 TIMED_WAITING on java.util.concurrent.ForkJoinPool@119b0ba2
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@119b0ba2
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+
+"Netty Epoll Server IO #1" Id=21 RUNNABLE
+	at java.util.zip.Deflater.deflateBytes(Native Method)
+	at java.util.zip.Deflater.deflate(Deflater.java:444)
+	-  locked java.util.zip.ZStreamRef@1f5ce7e1
+	at java.util.zip.Deflater.deflate(Deflater.java:385)
+	at jb.a(SourceFile:36)
+	at jb.encode(SourceFile:9)
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:730)
+	...
+
+
+"Server Watchdog" Id=20 RUNNABLE
+	at sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:454)
+	at un.run(SourceFile:45)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Netty Epoll Server IO #0" Id=19 RUNNABLE
+	at io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:114)
+	at io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"ObjectCleanerThread" Id=18 TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@1b6360d2
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@1b6360d2
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+	at io.netty.util.internal.ObjectCleaner$1.run(ObjectCleaner.java:54)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Server console handler" Id=17 RUNNABLE (in native)
+	at java.io.FileInputStream.readBytes(Native Method)
+	at java.io.FileInputStream.read(FileInputStream.java:255)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	-  locked java.io.BufferedInputStream@5e61edda
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	-  locked java.io.InputStreamReader@17ee3baf
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	...
+
+
+"DestroyJavaVM" Id=16 RUNNABLE
+
+
+"Server thread" Id=13 RUNNABLE
+	at uw.a(SourceFile:877)
+	at vi.a(SourceFile:475)
+	at wc.a(SourceFile:835)
+	at om.a(SourceFile:126)
+	at om$b.a(SourceFile:18)
+	at ke.a(SourceFile:21)
+	at ke$$Lambda$2471/1657668336.run(Unknown Source)
+	at rk.run(SourceFile:18)
+	...
+
+
+"Server Infinisleeper" Id=14 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at uk$1.run(SourceFile:93)
+
+
+"Snooper Timer" Id=12 WAITING on java.util.TaskQueue@6f75b55c
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@6f75b55c
+	at java.lang.Object.wait(Object.java:502)
+	at java.util.TimerThread.mainLoop(Timer.java:526)
+	at java.util.TimerThread.run(Timer.java:505)
+
+
+"Signal Dispatcher" Id=4 RUNNABLE
+
+
+"Finalizer" Id=3 WAITING on java.lang.ref.ReferenceQueue$Lock@6f103d90
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@6f103d90
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:165)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:216)
+
+
+"Reference Handler" Id=2 WAITING on java.lang.ref.Reference$Lock@3e4e1295
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.Reference$Lock@3e4e1295
+	at java.lang.Object.wait(Object.java:502)
+	at java.lang.ref.Reference.tryHandlePending(Reference.java:191)
+	at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:153)
+
+
+
+Stacktrace:
+	at un.run(SourceFile:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.14.4
+	Minecraft Version ID: 1.14.4
+	Operating System: Linux (amd64) version 3.10.0-957.27.2.el7.x86_64
+	Java Version: 1.8.0_242, Oracle Corporation
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1246865080 bytes (1189 MB) / 2075918336 bytes (1979 MB) up to 2075918336 bytes (1979 MB)
+	CPUs: 1
+	JVM Flags: 2 total; -Xms2G -Xmx2G
+	Player Count: 3 / 5; [vl['FFFFFFFRAN'/262, l='world', x=-112.17, y=64.63, z=22.32], vl['CelesGoye'/798, l='world', x=-2.35, y=67.00, z=-101.30], vl['eriri2316'/10486, l='world', x=-109.61, y=65.00, z=9.31]]
+	Data Packs: vanilla
+	Is Modded: Unknown (can't tell)
+	Type: Dedicated Server (map_server.txt)
