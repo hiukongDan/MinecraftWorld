@@ -1,16 +1,4 @@
-[00:12:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2135ms or 42 ticks behind
-[01:08:01] [Server thread/INFO]: CelesGoye lost connection: Disconnected
-[01:08:01] [Server thread/INFO]: CelesGoye left the game
-[14:40:29] [Server thread/INFO]: Stopping the server
-[14:40:29] [Server thread/INFO]: Stopping server
-[14:40:29] [Server thread/INFO]: Saving players
-[14:40:29] [Server thread/INFO]: Saving worlds
-[14:40:29] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
-[14:40:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14:40:29] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
-[14:40:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14:40:29] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[14:40:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14:40:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14:40:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14:40:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07:59:18] [Server thread/INFO]: kittensbolf[/139.162.169.120:44250] logged in with entity id 40033 at (-115.5, 64.0, 98.5)
+[07:59:18] [Server thread/INFO]: kittensbolf joined the game
+[07:59:18] [Server thread/INFO]: kittensbolf lost connection: Disconnected
+[07:59:18] [Server thread/INFO]: kittensbolf left the game
