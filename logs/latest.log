@@ -1,64 +1,106 @@
-[19:25:41] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[19:25:41] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[19:25:41] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[19:25:41] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[19:25:41] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[19:25:41] [Server thread/INFO]: Starting minecraft server version 1.14.4
-[19:25:41] [Server thread/INFO]: Loading properties
-[19:25:41] [Server thread/INFO]: Default game type: SURVIVAL
-[19:25:41] [Server thread/INFO]: Generating keypair
-[19:25:41] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:25:42] [Server thread/INFO]: Using default channel type
-[19:25:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:25:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:25:42] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:25:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:25:43] [Server thread/INFO]: Preparing level "world"
-[19:25:43] [Server thread/INFO]: Reloading ResourceManager: Default
-[19:25:44] [Server thread/INFO]: Loaded 6 recipes
-[19:25:45] [Server thread/INFO]: Loaded 811 advancements
-[19:25:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:25:48] [Server thread/INFO]: Preparing spawn area: 0%
-[19:25:48] [Server thread/INFO]: Preparing spawn area: 0%
-[19:25:48] [Server thread/INFO]: Preparing spawn area: 0%
-[19:25:48] [Server thread/INFO]: Preparing spawn area: 0%
-[19:25:48] [Server thread/INFO]: Preparing spawn area: 0%
-[19:25:48] [Server thread/INFO]: Preparing spawn area: 0%
-[19:25:49] [Server-Worker-6/INFO]: Preparing spawn area: 0%
-[19:25:49] [Server-Worker-6/INFO]: Preparing spawn area: 0%
-[19:25:49] [Server thread/INFO]: Preparing spawn area: 0%
-[19:25:50] [Server thread/INFO]: Time elapsed: 4430 ms
-[19:25:50] [Server thread/INFO]: Done (7.027s)! For help, type "help"
-[19:33:58] [Server thread/INFO]: CelesGoye[/127.0.0.1:51115] logged in with entity id 289 at (117.54530580718426, 73.24663349398674, 83.62908063747626)
-[19:33:58] [Server thread/INFO]: CelesGoye joined the game
-[19:34:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2028ms or 40 ticks behind
-[19:34:53] [Server thread/INFO]: CelesGoye lost connection: Disconnected
-[19:34:53] [Server thread/INFO]: CelesGoye left the game
-[20:02:58] [Server thread/INFO]: CelesGoye[/127.0.0.1:57729] logged in with entity id 500 at (117.54530580718426, 73.24663349398674, 83.62908063747626)
-[20:02:58] [Server thread/INFO]: CelesGoye joined the game
-[20:03:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2066ms or 41 ticks behind
-[20:03:26] [Server thread/INFO]: CelesGoye lost connection: Disconnected
-[20:03:26] [Server thread/INFO]: CelesGoye left the game
-[20:06:16] [Server thread/INFO]: CelesGoye[/127.0.0.1:58131] logged in with entity id 566 at (117.54530580718426, 73.24663349398674, 83.62908063747626)
-[20:06:16] [Server thread/INFO]: CelesGoye joined the game
-[20:25:55] [Server thread/WARN]: CelesGoye moved too quickly! 9.190367974503783,0.0,-4.506237669130755
-[20:29:20] [Server thread/INFO]: CelesGoye lost connection: Disconnected
-[20:29:20] [Server thread/INFO]: CelesGoye left the game
-[20:50:07] [Server thread/INFO]: CelesGoye[/127.0.0.1:61550] logged in with entity id 7446 at (26.462034105405518, 64.0, -93.30000001192093)
-[20:50:07] [Server thread/INFO]: CelesGoye joined the game
-[20:50:38] [Server thread/INFO]: Made CelesGoye a server operator
-[21:03:28] [Server thread/INFO]: CelesGoye lost connection: Disconnected
-[21:03:28] [Server thread/INFO]: CelesGoye left the game
-[21:08:53] [Server thread/INFO]: Stopping the server
-[21:08:53] [Server thread/INFO]: Stopping server
-[21:08:53] [Server thread/INFO]: Saving players
-[21:08:53] [Server thread/INFO]: Saving worlds
-[21:08:53] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
-[21:08:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:08:53] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[21:08:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:08:53] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
-[21:08:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:08:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:08:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:08:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:13:47] [Server thread/INFO]: BelialMaster[/58.22.114.29:6734] logged in with entity id 9864 at (-52.61184884492989, 129.37607948239855, -224.912137426598)
+[00:13:47] [Server thread/INFO]: BelialMaster joined the game
+[00:14:19] [Server thread/INFO]: FFFFFFFRAN[/27.209.105.144:62436] logged in with entity id 9993 at (-27.23984747938991, 127.73200335442874, -186.18433728664542)
+[00:14:19] [Server thread/INFO]: FFFFFFFRAN joined the game
+[00:22:27] [Server thread/INFO]: BelialMaster lost connection: Disconnected
+[00:22:27] [Server thread/INFO]: BelialMaster left the game
+[00:23:10] [Server thread/INFO]: BelialMaster[/58.22.114.29:6739] logged in with entity id 11996 at (-58.5093157651415, 68.0, -235.1333421969493)
+[00:23:10] [Server thread/INFO]: BelialMaster joined the game
+[00:26:18] [Server thread/INFO]: [FFFFFFFRAN: Teleported FFFFFFFRAN to BelialMaster]
+[00:28:06] [Server thread/INFO]: [FFFFFFFRAN: Set the weather to clear]
+[00:28:06] [Server thread/INFO]: [BelialMaster: Set the weather to clear]
+[00:33:29] [Server thread/INFO]: [FFFFFFFRAN: Set the weather to clear]
+[00:33:48] [Server thread/INFO]: [FFFFFFFRAN: Teleported FFFFFFFRAN to BelialMaster]
+[00:38:46] [Server thread/INFO]: [FFFFFFFRAN: Set the weather to clear]
+[00:43:56] [Server thread/INFO]: [BelialMaster: Set the weather to clear]
+[00:44:09] [Server thread/INFO]: BelialMaster has made the advancement [Take Aim]
+[00:49:02] [Server thread/INFO]: [BelialMaster: Set the weather to clear]
+[00:50:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2037ms or 40 ticks behind
+[00:50:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2127ms or 42 ticks behind
+[00:50:46] [Server thread/INFO]: CelesGoye[/127.0.0.1:49252] logged in with entity id 17013 at (-47.054089718453156, 66.74711281056504, -192.83939613804725)
+[00:50:46] [Server thread/INFO]: CelesGoye joined the game
+[00:50:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[00:51:17] [Server thread/INFO]: [CelesGoye: Teleported CelesGoye to FFFFFFFRAN]
+[00:51:17] [Server thread/WARN]: CelesGoye moved too quickly! -11.117900618088548,17.989429674926328,212.2191897048878
+[00:51:17] [Server thread/WARN]: CelesGoye moved too quickly! -11.117900618088548,17.989429674926328,212.2191897048878
+[00:53:40] [Server thread/WARN]: FFFFFFFRAN moved too quickly! -0.7289035114592082,5.797557357849854,8.415217521075618
+[00:53:40] [Server thread/WARN]: BelialMaster moved too quickly! 1.729183919294396,-9.922500601541557,-1.8049148132026716
+[00:54:13] [Server thread/INFO]: [BelialMaster: Set the weather to clear]
+[00:59:16] [Server thread/INFO]: [BelialMaster: Set the weather to clear]
+[01:05:11] [Server thread/INFO]: [BelialMaster: Set the weather to clear]
+[01:10:15] [Server thread/INFO]: [BelialMaster: Set the weather to clear]
+[01:15:18] [Server thread/INFO]: [BelialMaster: Set the weather to clear]
+[01:20:34] [Server thread/INFO]: [BelialMaster: Set the weather to clear]
+[01:25:37] [Server thread/INFO]: [BelialMaster: Set the weather to clear]
+[01:28:24] [Server thread/INFO]: [BelialMaster: Set the time to 18000]
+[01:28:58] [Server thread/INFO]: BelialMaster has made the advancement [A Throwaway Joke]
+[01:29:59] [Server thread/INFO]: [FFFFFFFRAN: Teleported FFFFFFFRAN to BelialMaster]
+[01:30:29] [Server thread/INFO]: CelesGoye has made the advancement [A Throwaway Joke]
+[01:30:46] [Server thread/INFO]: [BelialMaster: Set the weather to clear]
+[01:33:23] [Server thread/INFO]: [BelialMaster: Set the time to 6000]
+[01:33:42] [Server thread/INFO]: [BelialMaster: Set the time to 1000]
+[01:35:26] [Server thread/INFO]: BelialMaster lost connection: Disconnected
+[01:35:26] [Server thread/INFO]: BelialMaster left the game
+[01:36:52] [Server thread/INFO]: BelialMaster[/140.243.118.196:14504] logged in with entity id 25167 at (-41.22535342939392, 68.0, 53.0586977149843)
+[01:36:52] [Server thread/INFO]: BelialMaster joined the game
+[01:37:01] [Server thread/INFO]: [BelialMaster: Set the weather to clear]
+[01:42:11] [Server thread/INFO]: [BelialMaster: Set the weather to clear]
+[01:47:31] [Server thread/INFO]: [BelialMaster: Set the weather to clear]
+[01:48:43] [Server thread/INFO]: CelesGoye has made the advancement [Ice Bucket Challenge]
+[01:52:35] [Server thread/INFO]: [BelialMaster: Set the weather to clear]
+[01:56:40] [Server thread/INFO]: [BelialMaster: Teleported BelialMaster to FFFFFFFRAN]
+[01:57:39] [Server thread/INFO]: [BelialMaster: Teleported BelialMaster to FFFFFFFRAN]
+[01:57:44] [Server thread/INFO]: [BelialMaster: Set the weather to clear]
+[02:02:46] [Server thread/INFO]: [BelialMaster: Set the weather to clear]
+[02:05:39] [Server thread/INFO]: [FFFFFFFRAN: Set the time to 13000]
+[02:06:27] [Server thread/INFO]: BelialMaster lost connection: Disconnected
+[02:06:27] [Server thread/INFO]: BelialMaster left the game
+[02:06:36] [Server thread/INFO]: BelialMaster[/140.243.118.196:14518] logged in with entity id 30129 at (-24.555665418354685, 68.0, 72.35336769021734)
+[02:06:36] [Server thread/INFO]: BelialMaster joined the game
+[02:08:56] [Server thread/INFO]: [FFFFFFFRAN: Set the weather to clear]
+[02:09:08] [Server thread/INFO]: [BelialMaster: Set the time to 1000]
+[02:10:31] [Server thread/INFO]: [BelialMaster: Teleported BelialMaster to FFFFFFFRAN]
+[02:11:10] [Server thread/INFO]: [CelesGoye: Teleported CelesGoye to FFFFFFFRAN]
+[02:12:36] [Server thread/INFO]: [BelialMaster: Teleported BelialMaster to FFFFFFFRAN]
+[02:13:21] [Server thread/INFO]: [CelesGoye: Teleported CelesGoye to FFFFFFFRAN]
+[02:13:21] [Server thread/WARN]: CelesGoye moved too quickly! -53.48448808137749,-40.300543118976805,33.42221364302765
+[02:14:15] [Server thread/INFO]: [BelialMaster: Set the weather to clear]
+[02:14:54] [Server thread/INFO]: [CelesGoye: Teleported CelesGoye to FFFFFFFRAN]
+[02:15:50] [Server thread/INFO]: [FFFFFFFRAN: Teleported FFFFFFFRAN to BelialMaster]
+[02:15:55] [Server thread/INFO]: [CelesGoye: Teleported CelesGoye to BelialMaster]
+[02:18:40] [Server thread/WARN]: BelialMaster moved too quickly! 3.198625796905276,5.323171282481553,-8.249277968836623
+[02:18:56] [Server thread/INFO]: [BelialMaster: Teleported BelialMaster to FFFFFFFRAN]
+[02:19:30] [Server thread/INFO]: [FFFFFFFRAN: Set the weather to clear]
+[02:19:33] [Server thread/INFO]: [BelialMaster: Set the weather to clear]
+[02:23:09] [Server thread/INFO]: [BelialMaster: Teleported BelialMaster to FFFFFFFRAN]
+[02:23:40] [Server thread/WARN]: FFFFFFFRAN moved too quickly! -7.742548514246344,0.0,6.571376388777509
+[02:23:40] [Server thread/WARN]: BelialMaster moved too quickly! -10.517076279866071,0.0,1.9434001769574252
+[02:23:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[02:24:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
+[02:25:26] [Server thread/INFO]: [BelialMaster: Set the weather to clear]
+[02:27:01] [Server thread/INFO]: [CelesGoye: Teleported CelesGoye to FFFFFFFRAN]
+[02:27:01] [Server thread/WARN]: CelesGoye moved too quickly! -483.1552868908755,-14.361731587459218,-29.830716146355638
+[02:27:01] [Server thread/WARN]: CelesGoye moved too quickly! -483.1552868908755,-14.361731587459218,-29.830716146355638
+[02:27:01] [Server thread/WARN]: CelesGoye moved too quickly! -483.1552868908755,-14.361731587459218,-29.830716146355638
+[02:28:44] [Server thread/WARN]: CelesGoye moved too quickly! 7.417836974798462,0.0,6.9308053618167165
+[02:28:44] [Server thread/WARN]: BelialMaster moved too quickly! 9.351840839399479,4.125034668542142,-1.202719053624378
+[02:31:10] [Server thread/INFO]: [FFFFFFFRAN: Set the weather to clear]
+[02:32:06] [Server thread/INFO]: BelialMaster lost connection: Disconnected
+[02:32:06] [Server thread/INFO]: BelialMaster left the game
+[02:32:47] [Server thread/INFO]: FFFFFFFRAN lost connection: Disconnected
+[02:32:47] [Server thread/INFO]: FFFFFFFRAN left the game
+[02:34:32] [Server thread/INFO]: CelesGoye lost connection: Disconnected
+[02:34:32] [Server thread/INFO]: CelesGoye left the game
+[02:34:44] [Server thread/INFO]: Stopping the server
+[02:34:44] [Server thread/INFO]: Stopping server
+[02:34:44] [Server thread/INFO]: Saving players
+[02:34:44] [Server thread/INFO]: Saving worlds
+[02:34:44] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
+[02:34:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:34:44] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
+[02:34:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:34:44] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[02:34:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:34:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:34:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:34:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
