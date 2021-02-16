@@ -113,6 +113,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/blast_furnace": {
+    "criteria": {
+      "has_smooth_stone": "2021-02-16 15:06:40 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lime_stained_glass_pane": {
     "criteria": {
       "has_glass": "2020-08-27 20:42:30 +0800"
@@ -218,6 +224,12 @@
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
       "in_water": "2020-08-23 21:36:26 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/terracotta": {
+    "criteria": {
+      "has_clay_block": "2021-02-16 15:06:47 +0800"
     },
     "done": true
   },
@@ -386,6 +398,12 @@
   "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2021-02-15 19:47:03 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab": {
+    "criteria": {
+      "has_smooth_stone": "2021-02-16 15:06:40 +0800"
     },
     "done": true
   },
@@ -673,6 +691,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2021-02-16 15:05:57 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/birch_fence": {
     "criteria": {
       "has_planks": "2020-08-26 11:00:04 +0800"
@@ -718,6 +742,12 @@
   "minecraft:recipes/decorations/magenta_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2021-02-16 00:18:09 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2021-02-16 15:06:40 +0800"
     },
     "done": true
   },
@@ -1060,6 +1090,7 @@
       "minecraft:wooded_mountains": "2020-08-23 21:35:26 +0800",
       "minecraft:wooded_hills": "2020-08-23 21:31:30 +0800",
       "minecraft:stone_shore": "2020-08-23 21:35:47 +0800",
+      "minecraft:swamp": "2021-02-16 15:54:25 +0800",
       "minecraft:savanna": "2020-08-25 11:34:33 +0800",
       "minecraft:plains": "2020-08-23 21:29:51 +0800"
     },
@@ -1128,6 +1159,12 @@
   "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2021-02-15 19:47:03 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2021-02-16 15:05:57 +0800"
     },
     "done": true
   },
