@@ -353,6 +353,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab": {
+    "criteria": {
+      "has_prismarine_bricks": "2021-02-22 00:15:02 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_brick_stonecutting": {
     "criteria": {
       "has_end_stone_brick": "2021-02-15 19:37:39 +0800"
@@ -404,6 +410,12 @@
   "minecraft:nether/get_wither_skull": {
     "criteria": {
       "wither_skull": "2021-02-18 18:56:37 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs": {
+    "criteria": {
+      "has_prismarine_bricks": "2021-02-22 00:15:02 +0800"
     },
     "done": true
   },
@@ -1027,6 +1039,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2021-02-22 00:15:02 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/orange_carpet_from_white_carpet": {
     "criteria": {
       "has_white_carpet": "2020-08-25 22:50:25 +0800"
@@ -1084,6 +1102,12 @@
   "minecraft:story/form_obsidian": {
     "criteria": {
       "obsidian": "2021-02-15 01:48:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2021-02-22 00:15:02 +0800"
     },
     "done": true
   },
