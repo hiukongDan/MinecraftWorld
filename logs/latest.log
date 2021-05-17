@@ -1,6 +1,4 @@
-[00:15:12] [Server thread/INFO]: FFFFFFFRAN lost connection: Disconnected
-[00:15:12] [Server thread/INFO]: FFFFFFFRAN left the game
-[01:45:05] [Server thread/INFO]: FFFFFFFRAN[/220.200.38.41:5042] logged in with entity id 7053 at (-148.76823739592757, 118.70496189106093, -641.4805860062863)
-[01:45:05] [Server thread/INFO]: FFFFFFFRAN joined the game
-[03:55:22] [Server thread/INFO]: FFFFFFFRAN lost connection: Disconnected
-[03:55:22] [Server thread/INFO]: FFFFFFFRAN left the game
+[23:03:25] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[23:03:25] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[23:03:25] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[23:03:25] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
