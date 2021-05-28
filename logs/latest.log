@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [23:50:55] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
 [23:50:55] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
 [23:50:55] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
@@ -45,3 +46,20 @@
 [23:53:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
 [23:53:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
 [23:53:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+=======
+[23:10:41] [Server thread/INFO]: Unknown command
+[23:10:41] [Server thread/INFO]: end<--[HERE]
+[23:10:46] [Server thread/INFO]: Stopping the server
+[23:10:46] [Server thread/INFO]: Stopping server
+[23:10:46] [Server thread/INFO]: Saving players
+[23:10:46] [Server thread/INFO]: Saving worlds
+[23:10:46] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[23:10:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:10:46] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
+[23:10:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:10:46] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
+[23:10:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:10:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:10:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:10:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+>>>>>>> parent of e219b71 (20210528.2 by Goye)
